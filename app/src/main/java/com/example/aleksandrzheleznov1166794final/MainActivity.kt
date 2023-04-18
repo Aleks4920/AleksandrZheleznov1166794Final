@@ -5,6 +5,12 @@ import android.os.Bundle
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
+
+        setTitle("Aleks' Bucket List")
+
+        //make background image full screen
+
+
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
     }
